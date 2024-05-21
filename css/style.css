@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5vh;
+  padding-top: 5vh;
+}
+
+body > section {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside > section {
+  display: flex;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+section > h3 {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
