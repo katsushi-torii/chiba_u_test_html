@@ -10,7 +10,7 @@ main {
     align-items: center;
     padding-top: 5vh;
     row-gap: 1vh;
-    background-color: white;
+    background-color: grey;
 
     > section {
         display: flex;
@@ -20,7 +20,7 @@ main {
 }
 
 button {
-    background-color: white;
+    background-color: grey;
     border: none;
     display: flex;
     align-items: center;
@@ -39,11 +39,36 @@ aside {
     height: 19vh;
     width: 5vh;
     color: rgb(255, 0, 0);
+    text-shadow:
+        0 1px #b80101,
+        0 2px #aa0202,
+        0 3px #8e0202,
+        0 4px #7d0101,
+        0 5px #700202,
+        0 6px #5f0101,
+        0 7px #500101,
+        0 8px #410101,
+        0 9px #340101,
+        0 10px 8px #000;
+
+        // color: #fff;
+        // text-shadow:
+        //     0 1px #bbb,
+        //     0 2px #aaa,
+        //     0 3px #999,
+        //     0 4px #888,
+        //     0 5px #777,
+        //     0 6px #666,
+        //     0 7px #555,
+        //     0 8px #444,
+        //     0 9px #333,
+        //     0 10px 8px #000;
     // border: 1px solid red;
 }
 
 main > section:nth-child(even) aside {
-    color: rgb(0, 0, 255);
+    color: rgba(0, 0, 255, 0.5);
+    text-shadow: 2px 2px 2px grey, 0 0 #000;
 }
 
 
