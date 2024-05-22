@@ -38,11 +38,21 @@ aside {
   height: 19vh;
   width: 5vh;
   color: rgb(255, 0, 0);
+}
+
+.three-d > section:nth-child(odd) aside {
   text-shadow: 0 1px #b80101, 0 2px #aa0202, 0 3px #8e0202, 0 4px #7d0101, 0 5px #700202, 0 6px #5f0101, 0 7px #500101, 0 8px #410101, 0 9px #340101, 0 10px 8px #000;
+}
+
+.yellow > section:nth-child(odd) aside {
+  color: yellow;
 }
 
 main > section:nth-child(even) aside {
   color: rgba(0, 0, 255, 0.5);
+}
+
+.three-d > section:nth-child(even) aside {
   text-shadow: 2px 2px 2px grey, 0 0 #000;
 }
 
@@ -75,4 +85,31 @@ section > h3 {
 
 .d2 > span {
   display: flex;
+}
+
+.comparision {
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 15vh;
+       column-gap: 15vh;
+  height: 80vh;
+}
+.comparision > aside {
+  height: 60vh;
+  row-gap: 0;
+}
+.comparision > aside > h3 {
+  margin: -3vh;
+}
+.comparision > aside h3 {
+  font-size: 120px;
+}
+.comparision .redC {
+  color: red;
+}
+.comparision .blueC {
+  color: blue;
+}
+.comparision .yellowC {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */

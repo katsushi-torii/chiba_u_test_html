@@ -39,6 +39,9 @@ aside {
     height: 19vh;
     width: 5vh;
     color: rgb(255, 0, 0);
+}
+
+.three-d > section:nth-child(odd) aside {
     text-shadow:
         0 1px #b80101,
         0 2px #aa0202,
@@ -63,11 +66,17 @@ aside {
         //     0 8px #444,
         //     0 9px #333,
         //     0 10px 8px #000;
-    // border: 1px solid red;
+}
+
+.yellow > section:nth-child(odd) aside {
+    color: yellow;
 }
 
 main > section:nth-child(even) aside {
     color: rgba(0, 0, 255, 0.5);
+}
+
+.three-d > section:nth-child(even) aside {
     text-shadow: 2px 2px 2px grey, 0 0 #000;
 }
 
@@ -108,4 +117,30 @@ section > h3 {
 
 .d2 > span {
     display: flex;
+}
+
+.comparision {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15vh;
+    height: 80vh;
+    > aside {
+        height: 60vh;
+        row-gap: 0;
+        > h3 {
+            margin: -3vh;
+        }
+    }
+    > aside h3 {
+        font-size: 120px;
+    }
+    .redC {
+        color: red;
+    }
+    .blueC {
+        color: blue;
+    }
+    .yellowC {
+        color: yellow;
+    }
 }

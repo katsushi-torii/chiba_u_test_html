@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d2copy</title>
+    <title>d2_yellow</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
+<header>
+    <a href="./d2.html">普通版</a>
+    <a href="./d2_3d.html">立体版</a>
+    <a href="./d2_yellow.html">黄色版</a>
+    <a href="./comparision.html">大きさ比較</a>
+</header>
 <body>
-    <main>
+    <main class="yellow">
     </main>
 </body>
 <script>
@@ -16,7 +22,7 @@
         let row = $(`
             <section class="row${i}"></section>
         `);
-        for(let j = 0; j < 10;  j++){
+        for(let j = 0; j < 20;  j++){
             let block = $(`
                 <button>
                     <aside>
@@ -36,7 +42,6 @@
                 let bar = block.find('section > h3').eq(k);
                 if(random < 50){
                     bar.css('color', 'transparent');
-                    bar.css('text-shadow', 'none');
                 };
             }
             let alphabetRandom = Math.floor(Math.random() * 100);
