@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
 .d2 {
   display: flex;
   flex-direction: column;
@@ -105,4 +99,4 @@
 }
 .comparision .yellowC {
   color: yellow;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=d2.css.map */

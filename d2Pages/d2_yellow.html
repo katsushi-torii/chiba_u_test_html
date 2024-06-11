@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>d2_yellow</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./../css/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <header>
@@ -14,7 +14,7 @@
     <a href="./comparision.html">大きさ比較</a>
 </header>
 <body>
-    <main class="yellow">
+    <main class="d2 yellow">
     </main>
 </body>
 <script>
@@ -55,7 +55,7 @@
     }
     $('button').click((e)=>{
         let d2button = e.target.closest('button');
-        d2button.classList.toggle('d2');
+        d2button.classList.toggle('slash');
         console.log(d2button);
     })
 </script>
