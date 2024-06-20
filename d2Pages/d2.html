@@ -15,6 +15,9 @@
 </header>
 <body>
     <main class="d2">
+        <button class="finish">
+            Finish
+        </button>
     </main>
 </body>
 <script>
@@ -24,7 +27,7 @@
         `);
         for(let j = 0; j < 20;  j++){
             let block = $(`
-                <button>
+                <button class="check">
                     <aside>
                         <section>
                             <h3>|</h3> <h3>|</h3>
@@ -53,10 +56,13 @@
         }
         $('main').append(row);
     }
-    $('button').click((e)=>{
+    $('.check').click((e)=>{
         let d2button = e.target.closest('button');
         d2button.classList.toggle('slash');
         console.log(d2button);
+    })
+    $('.finish').click((e)=>{
+        console.log("test");
     })
 </script>
 </html>

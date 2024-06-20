@@ -10,14 +10,14 @@
   align-items: center;
   padding-top: 5vh;
   row-gap: 1vh;
-  background-color: grey;
+  background-color: rgb(128, 128, 128);
 }
 .d2 > section {
   display: flex;
   width: 60%;
   justify-content: space-around;
 }
-.d2 button {
+.d2 .check {
   background-color: grey;
   border: none;
   display: flex;
@@ -35,7 +35,7 @@
   row-gap: 0.5vh;
   height: 19vh;
   width: 5vh;
-  color: rgb(255, 0, 0);
+  color: rgb(184, 0, 0);
 }
 .d2 span {
   position: absolute;
@@ -69,11 +69,7 @@
 }
 
 .yellow > section:nth-child(odd) aside {
-  color: yellow;
-}
-
-.d2 > section:nth-child(even) aside {
-  color: rgba(0, 0, 255, 0.5);
+  color: rgb(255, 255, 0);
 }
 
 .three-d > section:nth-child(even) aside {
@@ -97,12 +93,14 @@
 .comparision > aside h3 {
   font-size: 120px;
 }
-.comparision .redC {
-  color: red;
+.comparision .colorA {
+  color: rgb(184, 0, 0);
 }
-.comparision .blueC {
-  color: blue;
+.comparision .colorB {
+  color: rgb(72, 72, 255);
 }
-.comparision .yellowC {
-  color: yellow;
+
+.sample {
+  background-color: rgb(128, 128, 128);
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
