@@ -24,7 +24,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 20vh;
   width: 10vh;
 }
 .d2 aside {
@@ -33,20 +32,27 @@
   align-items: center;
   justify-content: center;
   row-gap: 0.5vh;
-  height: 19vh;
   width: 5vh;
   color: rgb(184, 0, 0);
+}
+.d2 .blue {
+  color: rgb(72, 72, 255);
+}
+.d2 .yellow {
+  color: rgb(191, 191, 45);
+}
+.d2 .violet {
+  color: rgb(107, 53, 253);
 }
 .d2 span {
   position: absolute;
   z-index: 1;
   text-align: center;
-  height: 20vh;
   width: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 120px;
+  font-size: 240px;
   display: none;
 }
 .d2 aside > section {
@@ -55,10 +61,10 @@
        column-gap: 0.3vh;
 }
 .d2 h3 {
-  font-size: 48px;
+  font-size: 80px;
 }
 .d2 section > h3 {
-  font-size: 40px;
+  font-size: 80px;
 }
 .d2 .slash > span {
   display: flex;
@@ -68,10 +74,6 @@
   text-shadow: 0 1px #b80101, 0 2px #aa0202, 0 3px #8e0202, 0 4px #7d0101, 0 5px #700202, 0 6px #5f0101, 0 7px #500101, 0 8px #410101, 0 9px #340101, 0 10px 8px #000;
 }
 
-.yellow > section:nth-child(odd) aside {
-  color: rgb(255, 255, 0);
-}
-
 .three-d > section:nth-child(even) aside {
   text-shadow: 2px 2px 2px grey, 0 0 #000;
 }
@@ -79,19 +81,16 @@
 .comparision {
   flex-direction: row;
   justify-content: center;
-  -moz-column-gap: 15vh;
-       column-gap: 15vh;
-  height: 80vh;
+  -moz-column-gap: 5vh;
+       column-gap: 5vh;
 }
 .comparision > aside {
-  height: 60vh;
-  row-gap: 0;
-}
-.comparision > aside > h3 {
-  margin: -3vh;
+  height: 80vh;
+  row-gap: 0.5vh;
 }
 .comparision > aside h3 {
-  font-size: 120px;
+  margin: -1vh;
+  margin-top: -1.5vh;
 }
 .comparision .colorA {
   color: rgb(184, 0, 0);

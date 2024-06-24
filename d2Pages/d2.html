@@ -25,7 +25,7 @@
         let row = $(`
             <section class="row${i}"></section>
         `);
-        for(let j = 0; j < 20;  j++){
+        for(let j = 0; j < 10;  j++){
             let block = $(`
                 <button class="check">
                     <aside>
@@ -51,6 +51,15 @@
             let alphabet = block.children(0).children(0).eq(1);
             if(alphabetRandom < 30){
                 alphabet.html('p');
+            }
+            let colorRandom = Math.floor(Math.random() * 100);
+            let symbol = block.children(0).children(0);
+            if(colorRandom < 50 && colorRandom >= 25){
+                symbol.addClass('blue');
+            }else if(colorRandom < 75 && colorRandom >= 50){
+                symbol.addClass('yellow');
+            }else if(colorRandom < 100 && colorRandom >= 75){
+                symbol.addClass('violet');
             }
             row.append(block);
         }

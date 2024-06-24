@@ -1,0 +1,36 @@
+
+.comparision {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5vh;
+    // height: 40vh;
+    // row-gap: 1vh;
+    > aside {
+        height: 80vh;
+        // height: 19vh;
+        row-gap: 0.5vh;
+        // border: 1px solid red;
+        h3 {
+            margin: -1vh;
+            margin-top: -1.5vh;
+            // border: 1px solid red;
+        }
+    }
+    // > aside h3 {
+    //     font-size: 48px;
+    // }    
+    .colorA {
+        color: rgb(184, 0, 0);
+        // color: rgb(191, 191, 45);
+    }
+    .colorB {
+        color: rgb(72, 72, 255);
+        // color: rgb(107, 53, 253);
+    }
+}
+
+.sample {
+    background-color: rgb(128, 128, 128);
+    // background-color: darkred;
+    height: 100vh;
+}
